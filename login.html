@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+<link rel="stylesheet" href="css/login.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body  v-loading="loginLoading"	>
+<div id="login" class="login">
+	<form name="login-form" class="login-form" action="" method="post">
+	
+		<div class="header">
+		<h1>会议室申请系统</h1>
+		<span>请填写用户名及密码登录</span>
+		</div>
+	
+		<div class="content">
+		<input name="username" type="text" class="input username" placeholder="工号或姓名" v-model="loginform.username"/>
+		<div class="user-icon"></div>
+		<input name="password" type="password" class="input password" placeholder="密码" v-model="loginform.password"/>
+		<div class="pass-icon"></div>		
+		</div>
+
+		<div class="footer">
+		<a href="#" class="button" @click="onSubmit">登录</a>
+		<a href="calendar.html" class="glogin">游客登录</a>
+		</div>
+	
+	</form>
+</div>
+<script src="js/vue.js"></script>
+<script src="js/vue-resource.js"></script>
+<script src="js/index.js"></script>
+<script src="js/login.js"></script>
+
+
+
+</body>
+</html>

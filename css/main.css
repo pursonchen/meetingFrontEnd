@@ -1,0 +1,57 @@
+
+.logo{
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+.datepicker {
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.box-card .text {
+    font-size: 14px;
+  }
+
+ .box-card .item {
+    padding: 18px 0;
+  }
+
+  .box-card .clearfix:before,
+  .box-card .clearfix:after {
+      display: table;
+      content: "";
+  }
+  .box-card .clearfix:after {
+      clear: both
+  }
+
+  .box-card {
+    width: 90%;
+    margin-top: 50px;
+  }
+  
+  #app {
+    width:100%;min-height:100%;position:relative;
+  }
+  
+  .body{
+    padding-bottom: 50px;
+  }
+  .footer{
+    height:80px;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    background-color: #99A9BF;
+    width: 100%;
+  }
+  
+  .footer p {
+    color: #F9FAFC;
+    margin-top: 30px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  
